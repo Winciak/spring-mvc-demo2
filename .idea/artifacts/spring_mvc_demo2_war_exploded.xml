@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-mvc-demo2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc_demo2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring-mvc-demo2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-mvc-demo2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="Spring-5.3.7" />
+          <element id="library" level="application" name="Spring MVC-5.3.7" />
+          <element id="file-copy" path="$PROJECT_DIR$/../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/hibernate-validator-6.2.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/hibernate-validator-annotation-processor-6.2.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/hibernate-validator-cdi-6.2.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/lib/required/classmate-1.5.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/lib/required/jakarta.el-3.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/lib/required/jakarta.validation-api-2.0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../LIBRARIES/hibernate-validator-6.2.0.Final/dist/lib/required/jboss-logging-3.4.1.Final.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
